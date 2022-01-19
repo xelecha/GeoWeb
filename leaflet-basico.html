@@ -19,11 +19,28 @@
           height: 100%;
           width: 100%;
         }
-       </style>
-      
+       </style>  
+        <script>
+            var map,capa1;
+            function init(){
+                map = L.map("map",{
+                center:[41.6863, 1.8382],
+                zoom:8
+                });
+                capa1= L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+                maxZoom : 19,
+                minZoom : 1,
+                attribution : "OSM"
+                });
+                capa1.addTo(map);
+                L.marker([41.3954, 2.16859]).addTo(map);
+
+            }
+            </script>
 </head>
 
-<body>
+<body onLoad="init()">
     <div id="map"></div>
 </body>
 
