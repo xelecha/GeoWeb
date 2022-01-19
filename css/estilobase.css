@@ -7,6 +7,7 @@ body {
     width: 100%;
     background-color: #ffffff
 }
+
 .panelTopIzquierda {
     position: absolute;
     top: 45px;
@@ -15,7 +16,7 @@ body {
     z-index: 1000;
     background-color: rgba(255,255,255,0.9);
     padding: 10px;
-    font-size:20px;
+    font-size: 15px;
     color: #333333;
     border-radius: 5px;
 }
