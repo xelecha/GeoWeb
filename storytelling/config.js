@@ -83,7 +83,7 @@ var config = {
             image: 'https://i.blogs.es/490df5/kilauea/1366_2000.jpg',
             description: 'El Kīlauea (en hawaiano: /tiːlɐwˈwɛjə/) es un volcán en escudo, el más reciente y activo de los cinco que conforman la isla de Hawái. Es uno de los volcanes más activos de la Tierra. Las coladas más antiguas, submarinas, han sido datadas con una antigüedad de cerca de 300 000 años.3​ Emergió sobre el mar hace unos 70 000 años. Es el segundo volcán más reciente formado sobre el punto caliente de Hawái y el actual centro eruptivo de la cadena de montes submarinos Hawái-Emperador. El más reciente es el monte submarino Lōʻihi situado a 35 km de la línea de la costa sureste.',
             location: {
-                center: [-155.2834644688452414, 19.407742355439712],
+                center: [-155.27552501594727, 19.407499221870502],
                 zoom: 15,
                 pitch: 60,
                 bearing: 0
@@ -101,10 +101,10 @@ var config = {
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Katmai_Crater_1980.jpg/544px-Katmai_Crater_1980.jpg',
             description: 'El monte Katmai es un gran estratovolcán (volcán compuesto) situado al sur de la península de Alaska, ubicado dentro del Parque Nacional y Reserva Katmai. Tiene aproximadamente 6,3 millas (10 km) de diámetro y una caldera central ocupada por un lago de 2 por 3 millas (3,2 por 4,8 km) de tamaño aproximadamente, formada durante la erupción del Novarupta en 1912. El borde de la caldera alcanza una elevación máxima de 6,716 pies (2.047 m). En 1975, la superficie del lago del cráter estaba a una altura aproximada de 4220 pies (1286 m), y la elevación estimada del piso de la caldera era de 3400 pies (1040 m) aproximadamente. La montaña está ubicada en el distrito de la isla de Kodiak, muy cerca de su frontera con el distrito del lago y la península.',
             location: {
-                center: [ -154.95149506226463, 58.279940003097174],
-                zoom: 15,
+                center: [ -154.99766348465326, 58.25319365419484],
+                zoom: 13,
                 pitch: 60,
-                bearing: -30
+                bearing: -90
             },
             mapAnimation: 'flyTo',
             rotateAnimation: true,
@@ -119,10 +119,10 @@ var config = {
             image: 'https://upload.wikimedia.org/wikipedia/commons/a/ac/Kagoshima_and_Sakurajima.jpg',
             description: 'El Sakurajima (桜島?) es un volcán (estratovolcán) activo y antigua isla (actualmente está unida a la de Kyūshū) de Japón, situado en el sur de la isla de Kyūshū, en la prefectura de Kagoshima. Se encuentra en la parte de la bahía de Kagoshima conocida como bahía de Nishikie.1​Hasta 1914, Sakurajima era una isla, pero debido a una gran erupción, la enorme cantidad de lava que soltó se solidificó y unió la isla con la península de Ōsumi.2​ La actividad volcánica todavía continúa: aún emite grandes coladas de ceniza volcánica.',
             location: {
-                center: [130.6500737464444, 31.584083952285685],
+                center: [130.65950741729964, 31.580520534525338],
                 zoom: 15,
                 pitch: 60,
-                bearing: 0
+                bearing: -120
             },
             mapAnimation: 'flyTo',
             rotateAnimation: true,
