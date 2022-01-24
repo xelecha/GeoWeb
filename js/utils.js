@@ -16,7 +16,7 @@ async function enviarPeticion(url) {
   }
 
 
-  var popup = new mapboxgl.Popup({
+var popup = new mapboxgl.Popup({
     closeButton: false,
     closeOnClick: false
     });
@@ -46,4 +46,5 @@ function addPopupToMap(nombreCapa) {
       map.getCanvas().style.cursor = '';
       popup.remove();
     });
-  }// fin funcion
+  
+}// fin funcion
