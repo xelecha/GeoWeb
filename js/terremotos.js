@@ -35,8 +35,8 @@ function generarPeticionTerremotos() {
             'south=' + map.getBounds()._sw.lat + '&' +
             'east=' + map.getBounds()._ne.lng + '&' +
             'west=' + map.getBounds()._sw.lng + '&' +
-            'maxRows=50&' +
-            'minMagnitude=5&' +
+            'maxRows=70&' +
+            'minMagnitude=3&' +
             'username=masterupc&';
             //date : 'yyyy-MM-d
     
@@ -63,6 +63,7 @@ function generarPeticionTerremotos() {
                             3, '#ebe709',
                             5, '#eb1809',
                             7, '#ef4bf2',
+                            8, '#800080',
                         ],
                         'circle-opacity': 0.75,
                         'circle-radius': [
