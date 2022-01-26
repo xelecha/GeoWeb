@@ -35,6 +35,25 @@
                 generarPeticionTerremotos();
                 addPopupToMap("terremotos");
 
+                map.addSource("placas-source", {
+                    type: "geojson",
+                    data: "datos/placas.geojson"
+                }); //fin map source
+
+                map.addLayer({
+                    id: "placas-layer",
+                    type: "line",
+                    source: "placas-source",
+                    layout: {
+                        "line-join": "round",
+                        "line-cap": "round"
+                    },
+                    paint: {
+                        "line-color": "#dcf432",
+                        "line-width": 3
+                    }
+                }); 
+
             }); // fin load mapa
 
             map.on("zoomend", function () {
