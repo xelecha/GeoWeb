@@ -1,0 +1,145 @@
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Mapbox básico</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        h3 {
+            text-align: center;
+            font-family: Verdana;
+            font-size: 13px;
+        }
+        p {
+            text-align: center;
+            font-family: Verdana;
+            font-size: 12px;
+        }
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%
+        }
+    </style>
+    <script>
+
+        function init() {
+            mapboxgl.accessToken =
+                'pk.eyJ1IjoieGVsZWNoYSIsImEiOiJja3lpeDl2YnIyZ3Z3Mm5uMHFqZHZzd3JoIn0.rijVtBx79_xWHiJgDc41iA';
+            var map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/xelecha/ckzlhjzzx00gj14p8jc4f25tj',
+                center: [2.837, 41.972],
+                zoom: 19,
+                pitch: 45,
+                attributionControl: false
+            });
+
+            map.addControl(new mapboxgl.AttributionControl({
+                compact: true
+            }));
+            map.addControl(new mapboxgl.NavigationControl());
+
+            map.on('click', (event) => {
+                const features = map.queryRenderedFeatures(event.point, {
+                    layers: ['constru-cementerio-7h4q81']
+                });
+                if (!features.length) {
+                    return;
+                }
+                const feature = features[0];
+
+                if (feature.properties.tipusconst=='N') {
+                    const popup = new mapboxgl.Popup({ offset: [0, -15] })
+                    .setLngLat(feature.geometry.coordinates)
+                    .setHTML(
+                        `<h3>Tipus Sepultura:<br>Nínxol</h3><p>Zona:<br>${feature.properties.nomdpt}</p>`
+                    )
+                    .addTo(map);
+                }
+                
+                else  if (feature.properties.tipusconst=='H'){
+                
+                    const popup = new mapboxgl.Popup({ offset: [0, -15] })
+                    .setLngLat(feature.geometry.coordinates)
+                    .setHTML(
+                        `<h3>Tipus Sepultura:<br>Hipogeu</h3><p>Zona:<br>${feature.properties.nomdpt}</p>`
+                    )
+                    .addTo(map);
+                
+                }
+
+                else  if (feature.properties.tipusconst=='A'){
+                
+                const popup = new mapboxgl.Popup({ offset: [0, -15] })
+                .setLngLat(feature.geometry.coordinates)
+                .setHTML(
+                    `<h3>Tipus Sepultura:<br>Angle</h3><p>Zona:<br>${feature.properties.nomdpt}</p>`
+                )
+                .addTo(map);
+            
+                }
+
+                else  if (feature.properties.tipusconst=='P'){
+                
+                const popup = new mapboxgl.Popup({ offset: [0, -15] })
+                .setLngLat(feature.geometry.coordinates)
+                .setHTML(
+                    `<h3>Tipus Sepultura:<br>Panteó</h3><p>Zona:<br>${feature.properties.nomdpt}</p>`
+                )
+                .addTo(map);
+            
+                }
+
+                else  if (feature.properties.tipusconst=='C'){
+                
+                const popup = new mapboxgl.Popup({ offset: [0, -15] })
+                .setLngLat(feature.geometry.coordinates)
+                .setHTML(
+                    `<h3>Tipus Sepultura:<br>Columbari</h3><p>Zona:<br>${feature.properties.nomdpt}</p>`
+                )
+                .addTo(map);
+            
+                }
+                
+                else  if (feature.properties.tipusconst=='T'){
+                
+                const popup = new mapboxgl.Popup({ offset: [0, -15] })
+                .setLngLat(feature.geometry.coordinates)
+                .setHTML(
+                    `<h3>Tipus Sepultura:<br>Terra</h3><p>Zona:<br>${feature.properties.nomdpt}</p>`
+                )
+                .addTo(map);
+            
+                }
+
+                else  {
+                
+                const popup = new mapboxgl.Popup({ offset: [0, -15] })
+                .setLngLat(feature.geometry.coordinates)
+                .setHTML(
+                    `<h3>Tipus Sepultura:<br>${feature.properties.tipusconst}</h3><p>Zona:<br>${feature.properties.nomdpt}</p>`
+                )
+                .addTo(map);
+            
+                }
+                
+                });
+            
+            }
+
+    </script>
+</head>
+
+<body onload="init()">
+    <div id="map"></div>
+</body>
+
+</html>  
