@@ -52,12 +52,12 @@ var config = {
             hidden: false,
             title: 'Lambert, Antartica',
             image: 'https://media.nationalgeographic.org/assets/photos/000/313/31385.jpg',
-            description: '<p>El glaciar Lambert es un glaciar de la Antártida Oriental. Con 100 km de ancho, más de 400 km de largo y cerca de 2.500 m de profundidad figura en el Libro Guinness de los récords como el glaciar más grande del mundo. Drena el 8% de la capa de hielo de la Antártida al este y al sur de las montañas Prince Charles y fluye hacia el norte a la Barrera de hielo Amery. Fluye en parte de la fosa tectónica Graben y sale del continente en la bahía Prydz.</p><p>Este glaciar es importante en el estudio del cambio climático porque muy pequeños cambios en el clima pueden tener consecuencias significativas para el flujo del hielo glaciar abajo.2​ La mayor parte de los estudios en el glaciar son hechos por medio de teledetección debido a las duras condiciones climatológicas del área.</p>',
+            description: '<p>El glaciar <b>Lambert</b> es un glaciar de la <a href="https://es.wikipedia.org/wiki/Ant%C3%A1rtida_Oriental">Antártida Oriental</a>. Con 100 km de ancho, más de 400 km de largo y cerca de 2.500 m de profundidad figura en el Libro Guinness de los récords como el glaciar más grande del mundo. Drena el 8% de la capa de hielo de la Antártida al este y al sur de las montañas Prince Charles y fluye hacia el norte a la <a href="https://es.wikipedia.org/wiki/Barrera_de_hielo_Amery">Barrera de hielo Amery</a>. Fluye en parte de la fosa tectónica Graben y sale del continente en la <a href="https://es.wikipedia.org/wiki/Bah%C3%ADa_Prydz">bahía Prydz</a>.</p><p>Este glaciar es importante en el estudio del cambio climático porque cambios muy pequeños en el clima pueden tener consecuencias significativas en el flujo interno del hielo glaciar. La mayor parte de los estudios en el glaciar son realizan mediante teledetección debido a las durísimas condiciones climatológicas del área. Tanto es así que ni siquiera existen registros SIG bien definidos de su perímetro, ni en el <a href="https://lastrescrisis.blogspot.com/2014/09/inventario-mundial-glaciares.html">inventario Randolph</a> ni en la base de datos <a href="http://www.glims.org/">GLIMS</a>.</p>',
             location: {
-                center: [74.11145133565712, -72.01072409134025],
-                zoom: 5,
+                center: [77.12273559162513, -73.71934403152554],
+                zoom: 4,
                 pitch: 60,
-                bearing: -210
+                bearing: -190
             },
             mapAnimation: 'flyTo',
             rotateAnimation: true,
@@ -70,7 +70,7 @@ var config = {
             hidden: false,
             title: 'Hubbard, Alaska',
             image: 'https://travelingcanucks.com/wp-content/uploads/2019/09/alaska-cruise-0006.jpg',
-            description: '<p>El Glaciar Hubbard es un glaciar situado entre las Montañas San Elías en Alaska (Estados Unidos) y el Territorio de Yukón (Canadá).</p><p>Desde su origen en el Territorio de Yukon el glaciar se extiende 122 km hasta la bahía de Disenchantment y la bahía de Yakutat. Eso le hace el glaciar más largo en Alaska con terminación en el agua, mientras que su fachada mide más de diez km.</p><p><video autoplay=true loop=true width="370"><source src="https://svs.gsfc.nasa.gov/vis/a010000/a013400/a013492/Hubbard_1972_2019_8fps_1080p.webm" type="video/webm"></video></p><p>En este timelapse (parte de un <a href="https://svs.gsfc.nasa.gov/13492">estudio de glaciares de Alaska</a> realizado a lo largo de 48 años por NASA) se pueden observar los movimientos del Hubbard de 1972 a 2019.</p>',
+            description: '<p>El <b>Hubbard</b> es un glaciar situado entre las <a href="https://es.wikipedia.org/wiki/Monta%C3%B1as_San_El%C3%ADas">Montañas San Elías</a> en Alaska (Estados Unidos) y el <a href="https://es.wikipedia.org/wiki/Yuk%C3%B3n">Territorio de Yukón</a> (Canadá).</p><p>Desde su origen en el Territorio de Yukon el glaciar se extiende 122 km hasta la <a href="https://en.wikipedia.org/wiki/Disenchantment_Bay">bahía de Disenchantment</a> y la <a href="https://es.wikipedia.org/wiki/Bah%C3%ADa_de_Yakutat">bahía de Yakutat</a>, convirtiéndolo en el glaciar más largo en Alaska con terminación en el agua. Su fachada mide más de 10 km.</p><p><video autoplay=true controls loop=true width="370"><source src="https://svs.gsfc.nasa.gov/vis/a010000/a013400/a013492/Hubbard_1972_2019_8fps_1080p.webm" type="video/webm"></video></p><p>En este timelapse (parte de un <a href="https://svs.gsfc.nasa.gov/13492">estudio de glaciares de Alaska</a> realizado a lo largo de 48 años por NASA) se pueden observar los movimientos del Hubbard de 1972 a 2019.</p>',
             location: {
                 center: [-139.12069459382542, 60.073361723687036],
                 zoom: 9,
@@ -87,8 +87,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Fedchenko, Tajikistan',
-            image: 'https://previews.123rf.com/images/michalknitl/michalknitl1501/michalknitl150100541/35843409-magn%C3%ADfico-glaciar-fedchenko-en-las-monta%C3%B1as-pamir-en-tayikist%C3%A1n.jpg',
-            description: '<p>El glaciar Fedchenko (en ruso: Федченко ледник) es un gran glaciar en las montañas de Pamir, del centro-norte de Gorno-Badakhshan, en el país asiático de Tajikistán. El glaciar es largo y estrecho, en la actualidad se extiende a lo largo de 77 kilómetros (48 millas) y abarca más de 700 kilómetros cuadrados (270 millas cuadradas). Es el glaciar más largo del mundo fuera de las regiones polares.</p>',
+            image: 'https://centralasia-adventures.com/image/new/main-slider/fedchenko_glacier.html.jpg',
+            description: '<p>El glaciar <b>Fedchenko</b> (en ruso: Федченко ледник) es un gran glaciar en las montañas de <a href="https://en.wikipedia.org/wiki/Pamir_Mountains">Pamir</a>, del centro-norte de <a href="https://en.wikipedia.org/wiki/Gorno-Badakhshan_Autonomous_Region">Gorno-Badakhshan</a>, en el país asiático de Tajikistán.</p><p> El glaciar es largo y estrecho, extiendiéndose en la actualidad a lo largo de 77 kilómetros (48 millas) y abarcando más de 700 kilómetros cuadrados (270 millas cuadradas).</p><p> Es el glaciar más largo del mundo fuera de las regiones polares.</p><p><img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/78000/78967/fedchenko_tm5_2011275_lrg.jpg" style="transform:rotate(180deg);" /></p>',
             location: {
                 center: [72.44752631703845, 39.00617061686797],
                 zoom: 10,
@@ -105,12 +105,12 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Brüggen, Chile',
-            image: 'https://lh5.googleusercontent.com/p/AF1QipM2tkjBvEbfnSRttOWGcoktTYKLH_pWsi2cJtzk=w408-h306-k-no',
-            description: '<p>El glaciar Pío XI, también conocido como glaciar Brüggen o Ana María se ubica en la Región de Magallanes, en la zona austral de Chile. Forma parte del conjunto de glaciares que se desprenden del Campo de Hielo Sur, siendo el mayor de todos ellos y de Sudamérica con sus 1265 km² de superficie.</p>',
+            image: 'https://revistaenfoque.cl/wp-content/uploads/2016/10/GLACIAR-PIO-XI-1-960x768.jpg',
+            description: '<p>El glaciar Pío XI, también conocido como <b>Brüggen</b> o Ana María, se ubica en la <a href="https://es.wikipedia.org/wiki/Regi%C3%B3n_de_Magallanes_y_de_la_Ant%C3%A1rtica_Chilena">Región de Magallanes</a>, en la zona austral de Chile. Forma parte del conjunto de glaciares que se desprenden del <a href="https://es.wikipedia.org/wiki/Campo_de_hielo_patag%C3%B3nico_sur">Campo de Hielo Sur</a>, siendo el mayor de todos ellos y de Sudamérica con sus 1265 km² de superficie. Su parte frontal tiene una anchura aproximada de 7 km y su altura alcanza los 75 metros.</p><p>Esta enorme masa de hielo fue descrita por primera vez por Juan Ladrilleros en 1557, pero sería el sacerdote Alberto de Agostini, en su viaje de exploración de 1945, quien bautizaria definitivamente este enigmático glaciar como Pío XI.</p><p>Afortunadamente, el Brüggen es otro de los glaciares que avanza a pesar del cambio climático. Se estima que de 1945 a hoy, el glaciar ha tenido un aumento neto de 126 km².</p>',
             location: {
                 center: [-73.79144754657536, -49.45489837578567],
                 zoom: 9,
-                pitch: 60,
+                pitch: 50,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
@@ -122,14 +122,14 @@ var config = {
             id: 'glaciar7',
             alignment: 'left',
             hidden: false,
-            title: 'Franz Josef, New Zealand',
-            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Franz_Josef_glacier.JPG/528px-Franz_Josef_glacier.JPG',
-            description: '<p>El Franz Josef (Ka Roimata o Hinehukatere en maorí) es un glaciar de 12 km de largo ubicado en Parque nacional Westland en la costa oeste de la Isla Sur de Nueva Zelanda. Junto con el Glaciar Fox de 20 km al sur, que es único en bajar de los Alpes del Sur a menos de 300 metros sobre el nivel del mar, en medio del verdor y frondosidad de un bosque templado lluvioso.</p><p>El área que rodea a los dos glaciares es parte de Te Wahipounamu, un parque catalogado como Patrimonio de la Humanidad. El río que emerge de la terminal del glaciar Franz Josef se conoce como el río Waiho.</p><p>Después de haber retrocedido varios kilómetros entre los años 1940 y 1980, el glaciar entró en una fase de avance en 1984, y en ocasiones ha avanzado a un ritmo espectacular (para los estándares glaciales) de 70 cm al día.</p><p>El glaciar seguía avanzando hasta 2008, pero desde entonces ha entrado en una fase de rápido retroceso. Como es el caso para la mayoría de los glaciares de Nueva Zelanda que se encuentran principalmente en la parte oriental de los Alpes del Sur, el proceso de contracción se atribuye al calentamiento global.</p>',
+            title: 'Franz Josef, Nueva Zelanda',
+            image: 'https://rainforest.nz/wp-content/uploads/2020/05/resizedimage300200-Rainforest-Frans-Joseph-Glacier.jpg',
+            description: '<p><b>Franz Josef</b> (Ka Roimata o Hinehukatere en maorí) es un glaciar de 12 km de largo ubicado en el <a href="https://es.wikipedia.org/wiki/Parque_nacional_Westland">Parque nacional Westland</a> en la costa oeste de la Isla Sur de Nueva Zelanda. Junto con el Glaciar Fox 20 km al sur, es el único en bajar de los <a href="https://es.wikipedia.org/wiki/Alpes_del_Sur">Alpes del Sur</a> a menos de 300 metros sobre el nivel del mar, en medio del verdor y frondosidad de un bosque templado lluvioso.</p><p>El área que rodea a los dos glaciares es parte de <a href="https://es.wikipedia.org/wiki/Te_Wahipounamu">Te Wahipounamu</a>, un parque catalogado como Patrimonio de la Humanidad. El río que emerge de la terminal del glaciar <b>Franz Josef</b> se conoce como el río <a href="https://en.wikipedia.org/wiki/Waiho_River">Waiho</a>.</p><p>Después de haber retrocedido varios kilómetros entre los años 1940 y 1980, el glaciar entró en una fase de avance en 1984 (figura abajo), avanzando en ocasiones a un ritmo espectacular (para los estándares glaciales) de 70 cm al día.</p><p><img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Franz_Jozef_Glacier_NZ_fig13.gif" /></p><p>El avance se mantuvo hasta 2008, pero desde entonces el <b>Franz Josef</b> ha entrado en una fase de rápido retroceso debido al calentamiento global, como la mayoría de los glaciares de Nueva Zelanda.</p>',
             location: {
                 center: [170.2166315622821, -43.4220848140082],
                 zoom: 12,
                 pitch: 70,
-                bearing: 50
+                bearing: 60
             },
             mapAnimation: 'flyTo',
             rotateAnimation: true,
