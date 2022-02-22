@@ -6,7 +6,7 @@
         "title": "Vatnajökull"
       },
       "geometry": {
-        "coordinates": [-16.502119986766342, 64.42669574060317],
+        "coordinates": [-16.80786456086606, 64.35427511429359],
         "type": "Point"
       }
     },
@@ -16,7 +16,7 @@
         "title": "Aletsch"
     },
       "geometry": {
-        "coordinates": [8.036275507137699, 46.50939499447226],
+        "coordinates": [8.038084659368804, 46.49799174991397],
         "type": "Point"
       }
     },
@@ -26,7 +26,7 @@
         "title": "Lambert"
      },
       "geometry": {
-        "coordinates": [69.08272657154879, -72.16558633577749],
+        "coordinates": [68.6904314762383, -75.26621639791125],
         "type": "Point"
       }
     },
@@ -46,7 +46,7 @@
         "title": "Fedchenko"
      },
       "geometry": {
-        "coordinates": [72.3289459978694, 38.73825072279521],
+        "coordinates": [72.22982802986492, 38.828192538072486],
         "type": "Point"
       }
     },
@@ -56,7 +56,7 @@
         "title": "Brüggen"
     },
       "geometry": {
-        "coordinates": [-73.72866908950374, -49.23997363465738],
+        "coordinates": [-73.6457193844533, -49.255623968141286],
         "type": "Point"
       }
     },
@@ -66,7 +66,7 @@
         "title": "Franz Josef"
     },
       "geometry": {
-        "coordinates": [170.19803710585438, -43.475594305559206],
+        "coordinates": [170.21066273621292, -43.492767089192334],
         "type": "Point"
       }
     }
