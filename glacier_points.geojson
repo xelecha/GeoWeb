@@ -1,0 +1,75 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Vatnajökull"
+      },
+      "geometry": {
+        "coordinates": [-16.502119986766342, 64.42669574060317],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Aletsch"
+    },
+      "geometry": {
+        "coordinates": [8.036275507137699, 46.50939499447226],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Lambert"
+     },
+      "geometry": {
+        "coordinates": [69.08272657154879, -72.16558633577749],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Hubbard"
+     },
+      "geometry": {
+        "coordinates": [-139.27163951868724, 60.226219977247865],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Fedchenko"
+     },
+      "geometry": {
+        "coordinates": [72.3289459978694, 38.73825072279521],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Brüggen"
+    },
+      "geometry": {
+        "coordinates": [-73.72866908950374, -49.23997363465738],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Franz Josef"
+    },
+      "geometry": {
+        "coordinates": [170.19803710585438, -43.475594305559206],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}
