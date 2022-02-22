@@ -1,0 +1,15 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Barrera Amery"
+      },
+      "geometry": {
+        "coordinates": [70.70586084747839, -70.17890645149777],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}
